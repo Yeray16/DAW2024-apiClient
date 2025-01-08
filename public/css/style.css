@@ -1,0 +1,12 @@
+table {
+  float: left;
+  margin: 0 20 px;
+}
+
+tbody tr:nth-child(odd){
+  background-color: lightgray;
+}
+
+tbody tr:hover {
+  background-color: yellow;
+}

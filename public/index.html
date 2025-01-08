@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/index.js" defer></script>
+</head>
+<body>
+  <h1>Hola Mundo</h1>
+  <div>
+    <p><input type="text" name="nombre" id="nombre" placeholder="nombre..."></p>
+    <p><input type="text" name="apellidos" id="apellidos" placeholder="apellidos..."></p>
+    <p><input type="email" name="email" id="email" placeholder="email..."></p>
+    <button id="crear">Crear</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div id="details"></div>
+  <div id="edit-panel" hidden>
+    <p><input type="text" name="nombre" id="edit-nombre" placeholder="nombre..."></p>
+    <p><input type="text" name="apellidos" id="edit-apellidos" placeholder="apellidos..."></p>
+    <p><input type="email" name="email" id="edit-email" placeholder="email..."></p>
+    <input type="hidden" name="edit-id">
+    <button id="guardar">Guardar</button>
+    <button id="cancelar">Cancelar</button>
+  </div>
+</body>
+</html>
